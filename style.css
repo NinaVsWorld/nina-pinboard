@@ -1,0 +1,16 @@
+body {
+    background-image: url('icons/tile.jpg');
+}
+
+main {
+    color: whitesmoke;
+}
+
+#books {
+    position: absolute;
+    width: 150px;
+}
+
+#wuthering-heights {
+    width: 150px;
+}
