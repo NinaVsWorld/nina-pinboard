@@ -3,14 +3,37 @@ body {
 }
 
 main {
-    color: whitesmoke;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
 }
 
 #books {
     position: absolute;
+    top: 0;
+    right: 0;
     width: 150px;
+}
+
+#book-div {
+    width: 150px;
+    height: 225px;
+}
+
+.text {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 #wuthering-heights {
     width: 150px;
+}
+
+.centre-paragraph {
+    padding: 2px 5px;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
 }
