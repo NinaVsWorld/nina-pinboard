@@ -5,32 +5,21 @@ body {
 }
 
 main {
-    font-family: "Space Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Lucida Grande Bold', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    src: url('https://www.wfonts.com/data/2015/10/29/lucida-grande/Lucida Grande Bold.ttf') format('ttf');
     font-size: 14px;
-    color: black;
+    color: #373c44;
+    font-weight: bold;
 }
 
-.icons {
+.icons, .icon-div, .text {
     display: flex;
     flex-direction: column;
-}
-
-.icon-div {
-    display: flex;
-    justify-content: center;
-}
-
-.text {
-    display: flex;
-    justify-content: center;
 }
 
 .centre-paragraph {
     padding: 2px 5px;
     text-align: center;
-    background-color: #fff;
     display: inline-block;
 }
 
