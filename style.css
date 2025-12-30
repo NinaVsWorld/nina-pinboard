@@ -1,24 +1,25 @@
 body {
-    background-image: url('icons/tile.jpg');
+    background: linear-gradient(rgba(232, 235, 228, 0.85),
+    rgba(232, 235, 228, 0.85)
+    ), url('icons/shaun-the-sheep.JPG');
 }
 
 main {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
+    font-size: 14px;
     color: black;
 }
 
-#books {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 150px;
+.icons {
+    display: flex;
+    flex-direction: column;
 }
 
-#book-div {
-    width: 150px;
-    height: 225px;
+.icon-div {
+    display: flex;
+    justify-content: center;
 }
 
 .text {
@@ -27,9 +28,32 @@ main {
     justify-content: center;
 }
 
-#wuthering-heights {
-    width: 150px;
+/** about me icon **/
+
+#about {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
+
+#wuthering-heights {
+    display: inline-block;
+}
+
+/** Photos icon **/
+
+#photos {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#iphoto {
+    display: inline-block;
+}
+
+/** contact icon **/
+
 
 .centre-paragraph {
     padding: 2px 5px;
