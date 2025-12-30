@@ -23,9 +23,15 @@ main {
 }
 
 .text {
-    margin-top: 10px;
     display: flex;
     justify-content: center;
+}
+
+.centre-paragraph {
+    padding: 2px 5px;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
 }
 
 /** about me icon **/
@@ -36,28 +42,33 @@ main {
     right: 0;
 }
 
-#wuthering-heights {
-    display: inline-block;
-}
-
 /** Photos icon **/
 
 #photos {
     position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#iphoto {
-    display: inline-block;
+    top: 25px;
+    left: 50px;
 }
 
 /** contact icon **/
 
+#contact {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
 
-.centre-paragraph {
-    padding: 2px 5px;
-    text-align: center;
-    background-color: #fff;
-    display: inline-block;
+/** projects icon **/
+#projects {
+    position: absolute;
+    bottom: 100px;
+    left: 250px;
+}
+
+/** Music icon **/
+
+#music {
+    position: absolute;
+    top: 300px;
+    left: 500px;
 }
